@@ -8,8 +8,8 @@ for one in ports:
     portsList.append(str(one))
     print(str(one))
 
-# com = input("Select Com Port for Arduino #: ")
-com = 3
+com = input("Select Com Port for Arduino #: ")
+# com = 3
 for i in range(len(portsList)):
     if portsList[i].startswith("COM" + str(com)):
         use = "COM" + str(com)
